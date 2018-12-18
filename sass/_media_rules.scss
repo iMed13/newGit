@@ -1,0 +1,26 @@
+@media only screen and (max-width: 900px){
+.menu_list
+{
+	display: none !important;
+}
+.hidden_hamburg
+    {
+    	display: block !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .contact_info_content .main_info 
+    {
+        width: 100% !important;
+        .first
+        {
+        	display: flex;
+        	flex-wrap:wrap;
+        	div
+        	{
+        		padding: 10px 0;
+        	}
+        }
+    } 
+}
